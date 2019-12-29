@@ -15,7 +15,7 @@ class DirectedGraph {
 	HashMap<Integer, ArrayList<Integer>> adjList;
 }
 
-public class myCode {
+public class myCodeFirstTest {
 	
 	int count=0;
 	
@@ -221,7 +221,7 @@ public class myCode {
 			}
 		}
 		int targetLen = Integer.parseInt(br.readLine());
-		myCode code = new myCode();
+		myCodeFirstTest code = new myCodeFirstTest();
 		DirectedGraph graph =  code.makeGraph(edges);
 		if(code.findCycle(graph)) {
 			System.out.println("1");
